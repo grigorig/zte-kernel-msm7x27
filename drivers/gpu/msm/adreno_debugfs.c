@@ -130,6 +130,7 @@ static int kgsl_regread_nolock(struct kgsl_device *device,
 
 #define KGSL_ISTORE_START 0x5000
 #define KGSL_ISTORE_LENGTH 0x600
+
 static ssize_t kgsl_istore_read(
 	struct file *file,
 	char __user *buff,
