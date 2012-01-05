@@ -1,5 +1,4 @@
-/* Copyright (c) 2010-2011, Code Aurora Forum. All rights reserved.
- * Copyright (C) 2011 Sony Ericsson Mobile Communications AB.
+/* Copyright (c) 2010-2012, Code Aurora Forum. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -43,7 +42,7 @@ static struct kgsl_pwrscale_policy *kgsl_pwrscale_policies[] = {
 #ifdef CONFIG_MSM_SCM
 	&kgsl_pwrscale_policy_tz,
 #endif
-#ifdef CONFIG_MSM_SLEEP_STATS
+#ifdef CONFIG_MSM_SLEEP_STATS_DEVICE
 	&kgsl_pwrscale_policy_idlestats,
 #endif
 	NULL

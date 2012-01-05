@@ -168,9 +168,9 @@ ifdef CONFIG_VCM
 obj-$(CONFIG_ARCH_MSM8X60) += board-msm8x60-vcm.o
 endif
 
-
 obj-y	+= gpio.o generic_gpio.o
-obj-$(CONFIG_MSM_SLEEP_STATS) += msm_sleep_stats.o
+obj-$(CONFIG_MSM_SLEEP_STATS) += msm_rq_stats.o idle_stats.o
+obj-$(CONFIG_MSM_SLEEP_STATS_DEVICE) += idle_stats_device.o
 obj-y	+= tlmm-msm7200a.o
 
 
